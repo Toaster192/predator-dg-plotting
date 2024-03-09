@@ -1,6 +1,6 @@
-GCC_HOST_VERSION=9
-LLVM_HOST_VERSION=10
-CC=/usr/bin/gcc-$GCC_HOST_VERSION
-CXX=/usr/bin/g++-$GCC_HOST_VERSION
-CFLAGS=-Werror
-CXXFLAGS=-Werror
+export GCC_HOST_VERSION=9
+export LLVM_HOST_VERSION=10
+export CC=/usr/bin/gcc-$GCC_HOST_VERSION
+export CXX=/usr/bin/g++-$GCC_HOST_VERSION
+export CFLAGS=-Werror
+export CXXFLAGS=-Werror

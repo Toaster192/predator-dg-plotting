@@ -1,0 +1,309 @@
+{
+    "compositeObjects": [
+        {
+            "id": 1,
+            "label": "",
+            "objects": [
+                {
+                    "id": 14,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 14,
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 40
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "label": "",
+            "objects": [
+                {
+                    "id": 19,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 19,
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 49
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "label": "",
+            "objects": [
+                {
+                    "id": 24,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 24,
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 51
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "label": "",
+            "objects": [
+                {
+                    "id": 29,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 29,
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 50
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "label": "",
+            "objects": [
+                {
+                    "id": 35,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": "#35"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "label": "",
+            "objects": [
+                {
+                    "id": 44,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": "#44"
+                }
+            ]
+        }
+    ],
+    "hasValueEdges": [
+        {
+            "from": 11,
+            "to": 15
+        },
+        {
+            "from": 40,
+            "to": 36
+        },
+        {
+            "from": 16,
+            "to": 20
+        },
+        {
+            "from": 49,
+            "to": 45
+        },
+        {
+            "from": 21,
+            "to": 25
+        },
+        {
+            "from": 51,
+            "to": 20
+        },
+        {
+            "from": 26,
+            "to": 30
+        },
+        {
+            "from": 50,
+            "to": 20
+        }
+    ],
+    "neqEdges": [],
+    "objects": [
+        {
+            "id": 13,
+            "label": "field",
+            "value": {
+                "id": 11,
+                "loc": {
+                    "column": 10,
+                    "file": "../13.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata i32** %1, metadata !14, metadata !DIExpression()), !dbg !15",
+                    "line": 9
+                },
+                "var": {
+                    "id": 8,
+                    "name": "a"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "label": "field",
+            "value": {
+                "id": 16,
+                "loc": {
+                    "column": 10,
+                    "file": "../13.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata i32** %2, metadata !18, metadata !DIExpression()), !dbg !19",
+                    "line": 10
+                },
+                "var": {
+                    "id": 9,
+                    "name": "b"
+                }
+            }
+        },
+        {
+            "id": 23,
+            "label": "field",
+            "value": {
+                "id": 21,
+                "loc": {
+                    "column": 11,
+                    "file": "../13.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata i32*** %3, metadata !22, metadata !DIExpression()), !dbg !24",
+                    "line": 11
+                },
+                "var": {
+                    "id": 11,
+                    "name": "fp"
+                }
+            }
+        },
+        {
+            "id": 28,
+            "label": "field",
+            "value": {
+                "id": 26,
+                "loc": {
+                    "column": 11,
+                    "file": "../13.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata i32*** %4, metadata !26, metadata !DIExpression()), !dbg !27",
+                    "line": 12
+                },
+                "var": {
+                    "id": 12,
+                    "name": "hm"
+                }
+            }
+        }
+    ],
+    "offsetEdges": [
+        {
+            "from": 14,
+            "off": 0,
+            "to": 40
+        },
+        {
+            "from": 19,
+            "off": 0,
+            "to": 49
+        },
+        {
+            "from": 24,
+            "off": 0,
+            "to": 51
+        },
+        {
+            "from": 29,
+            "off": 0,
+            "to": 50
+        },
+        {
+            "from": 15,
+            "off": 0,
+            "to": 14
+        },
+        {
+            "from": 20,
+            "off": 0,
+            "to": 19
+        },
+        {
+            "from": 25,
+            "off": 0,
+            "to": 24
+        },
+        {
+            "from": 30,
+            "off": 0,
+            "to": 29
+        },
+        {
+            "from": 36,
+            "off": 0,
+            "to": 35
+        },
+        {
+            "from": 45,
+            "off": 0,
+            "to": 44
+        }
+    ],
+    "pointsToEdges": [],
+    "rangeEdges": [],
+    "values": [
+        {
+            "id": 15,
+            "iid": 15,
+            "label": "VT_OBJECT",
+            "obj": 14,
+            "offset": "0 .. 0"
+        },
+        {
+            "id": 20,
+            "iid": 20,
+            "label": "VT_OBJECT",
+            "obj": 19,
+            "offset": "0 .. 0"
+        },
+        {
+            "id": 25,
+            "iid": 25,
+            "label": "VT_OBJECT",
+            "obj": 24,
+            "offset": "0 .. 0"
+        },
+        {
+            "id": 30,
+            "iid": 30,
+            "label": "VT_OBJECT",
+            "obj": 29,
+            "offset": "0 .. 0"
+        },
+        {
+            "id": 36,
+            "iid": 36,
+            "label": "VT_OBJECT",
+            "obj": 35,
+            "offset": "0 .. 0"
+        },
+        {
+            "id": 45,
+            "iid": 45,
+            "label": "VT_OBJECT",
+            "obj": 44,
+            "offset": "0 .. 0"
+        }
+    ]
+}
