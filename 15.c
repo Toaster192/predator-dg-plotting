@@ -1,3 +1,4 @@
+#include <verifier-builtins.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -32,6 +33,7 @@ int main()
     struct Node* d = t->b;
     struct Node *e = NEW(struct Node);
 
+    __VERIFIER_plot(NULL);
     printf("%p %p %p %p %p", a, b, c, d, e);
 
     free(d);

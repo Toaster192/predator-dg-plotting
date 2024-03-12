@@ -1,0 +1,1108 @@
+{
+    "compositeObjects": [
+        {
+            "id": 725,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 19,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 19,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 48,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 726,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 24,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 24,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 683,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 727,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 29,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 29,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 693,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 728,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 34,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 34,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 709,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 729,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 39,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 39,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 719,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 730,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 44,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 44,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 728,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 731,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 67,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 67
+                },
+                {
+                    "id": 90,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 80,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 101,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 732,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 128,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 128
+                },
+                {
+                    "id": 151,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 141,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 162,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 733,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 198,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 198
+                },
+                {
+                    "id": 221,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 211,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 232,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 734,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 270,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 270
+                },
+                {
+                    "id": 293,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 283,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 304,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 735,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 345,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 345
+                },
+                {
+                    "id": 368,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 358,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 379,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 736,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 425,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 425
+                },
+                {
+                    "id": 448,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 438,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 459,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 737,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 509,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 509
+                },
+                {
+                    "id": 532,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 522,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 543,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 738,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 597,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 597
+                },
+                {
+                    "id": 620,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 610,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 631,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        },
+        {
+            "id": 739,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 723,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 723
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "from": 19,
+            "label": "offset",
+            "off": 0,
+            "to": 48
+        },
+        {
+            "from": 24,
+            "label": "offset",
+            "off": 0,
+            "to": 683
+        },
+        {
+            "from": 29,
+            "label": "offset",
+            "off": 0,
+            "to": 693
+        },
+        {
+            "from": 34,
+            "label": "offset",
+            "off": 0,
+            "to": 709
+        },
+        {
+            "from": 39,
+            "label": "offset",
+            "off": 0,
+            "to": 719
+        },
+        {
+            "from": 44,
+            "label": "offset",
+            "off": 0,
+            "to": 728
+        },
+        {
+            "from": 67,
+            "label": "offset",
+            "off": 0,
+            "to": 90
+        },
+        {
+            "from": 67,
+            "label": "offset",
+            "off": 8,
+            "to": 80
+        },
+        {
+            "from": 67,
+            "label": "offset",
+            "off": 16,
+            "to": 101
+        },
+        {
+            "from": 128,
+            "label": "offset",
+            "off": 0,
+            "to": 151
+        },
+        {
+            "from": 128,
+            "label": "offset",
+            "off": 8,
+            "to": 141
+        },
+        {
+            "from": 128,
+            "label": "offset",
+            "off": 16,
+            "to": 162
+        },
+        {
+            "from": 198,
+            "label": "offset",
+            "off": 0,
+            "to": 221
+        },
+        {
+            "from": 198,
+            "label": "offset",
+            "off": 8,
+            "to": 211
+        },
+        {
+            "from": 198,
+            "label": "offset",
+            "off": 16,
+            "to": 232
+        },
+        {
+            "from": 270,
+            "label": "offset",
+            "off": 0,
+            "to": 293
+        },
+        {
+            "from": 270,
+            "label": "offset",
+            "off": 8,
+            "to": 283
+        },
+        {
+            "from": 270,
+            "label": "offset",
+            "off": 16,
+            "to": 304
+        },
+        {
+            "from": 345,
+            "label": "offset",
+            "off": 0,
+            "to": 368
+        },
+        {
+            "from": 345,
+            "label": "offset",
+            "off": 8,
+            "to": 358
+        },
+        {
+            "from": 345,
+            "label": "offset",
+            "off": 16,
+            "to": 379
+        },
+        {
+            "from": 425,
+            "label": "offset",
+            "off": 0,
+            "to": 448
+        },
+        {
+            "from": 425,
+            "label": "offset",
+            "off": 8,
+            "to": 438
+        },
+        {
+            "from": 425,
+            "label": "offset",
+            "off": 16,
+            "to": 459
+        },
+        {
+            "from": 509,
+            "label": "offset",
+            "off": 0,
+            "to": 532
+        },
+        {
+            "from": 509,
+            "label": "offset",
+            "off": 8,
+            "to": 522
+        },
+        {
+            "from": 509,
+            "label": "offset",
+            "off": 16,
+            "to": 543
+        },
+        {
+            "from": 597,
+            "label": "offset",
+            "off": 0,
+            "to": 620
+        },
+        {
+            "from": 597,
+            "label": "offset",
+            "off": 8,
+            "to": 610
+        },
+        {
+            "from": 597,
+            "label": "offset",
+            "off": 16,
+            "to": 631
+        },
+        {
+            "from": 20,
+            "label": "offset",
+            "off": 0,
+            "to": 19
+        },
+        {
+            "from": 25,
+            "label": "offset",
+            "off": 0,
+            "to": 24
+        },
+        {
+            "from": 30,
+            "label": "offset",
+            "off": 0,
+            "to": 29
+        },
+        {
+            "from": 35,
+            "label": "offset",
+            "off": 0,
+            "to": 34
+        },
+        {
+            "from": 40,
+            "label": "offset",
+            "off": 0,
+            "to": 39
+        },
+        {
+            "from": 45,
+            "label": "offset",
+            "off": 0,
+            "to": 44
+        },
+        {
+            "from": 68,
+            "label": "offset",
+            "off": 0,
+            "to": 67
+        },
+        {
+            "from": 129,
+            "label": "offset",
+            "off": 0,
+            "to": 128
+        },
+        {
+            "from": 199,
+            "label": "offset",
+            "off": 0,
+            "to": 198
+        },
+        {
+            "from": 271,
+            "label": "offset",
+            "off": 0,
+            "to": 270
+        },
+        {
+            "from": 346,
+            "label": "offset",
+            "off": 0,
+            "to": 345
+        },
+        {
+            "from": 426,
+            "label": "offset",
+            "off": 0,
+            "to": 425
+        },
+        {
+            "from": 510,
+            "label": "offset",
+            "off": 0,
+            "to": 509
+        },
+        {
+            "from": 598,
+            "label": "offset",
+            "off": 0,
+            "to": 597
+        },
+        {
+            "from": 724,
+            "label": "offset",
+            "off": 0,
+            "to": 723
+        },
+        {
+            "from": 16,
+            "label": "hasValue",
+            "to": 20
+        },
+        {
+            "from": 48,
+            "label": "hasValue",
+            "to": 598
+        },
+        {
+            "from": 21,
+            "label": "hasValue",
+            "to": 25
+        },
+        {
+            "from": 683,
+            "label": "hasValue",
+            "to": 68
+        },
+        {
+            "from": 26,
+            "label": "hasValue",
+            "to": 30
+        },
+        {
+            "from": 693,
+            "label": "hasValue",
+            "to": 129
+        },
+        {
+            "from": 31,
+            "label": "hasValue",
+            "to": 35
+        },
+        {
+            "from": 709,
+            "label": "hasValue",
+            "to": 199
+        },
+        {
+            "from": 36,
+            "label": "hasValue",
+            "to": 40
+        },
+        {
+            "from": 719,
+            "label": "hasValue",
+            "to": 510
+        },
+        {
+            "from": 41,
+            "label": "hasValue",
+            "to": 45
+        },
+        {
+            "from": 728,
+            "label": "hasValue",
+            "to": 724
+        },
+        {
+            "from": 90,
+            "label": "hasValue",
+            "to": 740
+        },
+        {
+            "from": 80,
+            "label": "hasValue",
+            "to": 129
+        },
+        {
+            "from": 101,
+            "label": "hasValue",
+            "to": 741
+        },
+        {
+            "from": 151,
+            "label": "hasValue",
+            "to": 742
+        },
+        {
+            "from": 141,
+            "label": "hasValue",
+            "to": 199
+        },
+        {
+            "from": 162,
+            "label": "hasValue",
+            "to": 68
+        },
+        {
+            "from": 221,
+            "label": "hasValue",
+            "to": 743
+        },
+        {
+            "from": 211,
+            "label": "hasValue",
+            "to": 271
+        },
+        {
+            "from": 232,
+            "label": "hasValue",
+            "to": 129
+        },
+        {
+            "from": 293,
+            "label": "hasValue",
+            "to": 744
+        },
+        {
+            "from": 283,
+            "label": "hasValue",
+            "to": 346
+        },
+        {
+            "from": 304,
+            "label": "hasValue",
+            "to": 199
+        },
+        {
+            "from": 368,
+            "label": "hasValue",
+            "to": 745
+        },
+        {
+            "from": 358,
+            "label": "hasValue",
+            "to": 426
+        },
+        {
+            "from": 379,
+            "label": "hasValue",
+            "to": 271
+        },
+        {
+            "from": 448,
+            "label": "hasValue",
+            "to": 746
+        },
+        {
+            "from": 438,
+            "label": "hasValue",
+            "to": 510
+        },
+        {
+            "from": 459,
+            "label": "hasValue",
+            "to": 346
+        },
+        {
+            "from": 532,
+            "label": "hasValue",
+            "to": 747
+        },
+        {
+            "from": 522,
+            "label": "hasValue",
+            "to": 598
+        },
+        {
+            "from": 543,
+            "label": "hasValue",
+            "to": 426
+        },
+        {
+            "from": 620,
+            "label": "hasValue",
+            "to": 748
+        },
+        {
+            "from": 610,
+            "label": "hasValue",
+            "to": 749
+        },
+        {
+            "from": 631,
+            "label": "hasValue",
+            "to": 510
+        }
+    ],
+    "objects": [
+        {
+            "id": 16,
+            "label": "field",
+            "value": {
+                "id": 16,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../15.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %2, metadata !23, metadata !DIExpression()), !dbg !24",
+                    "line": 16
+                },
+                "var": {
+                    "name": "t",
+                    "uid": 11
+                }
+            }
+        },
+        {
+            "id": 21,
+            "label": "field",
+            "value": {
+                "id": 21,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../15.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %5, metadata !69, metadata !DIExpression()), !dbg !70",
+                    "line": 30
+                },
+                "var": {
+                    "name": "a",
+                    "uid": 12
+                }
+            }
+        },
+        {
+            "id": 26,
+            "label": "field",
+            "value": {
+                "id": 26,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../15.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %6, metadata !73, metadata !DIExpression()), !dbg !74",
+                    "line": 31
+                },
+                "var": {
+                    "name": "b",
+                    "uid": 13
+                }
+            }
+        },
+        {
+            "id": 31,
+            "label": "field",
+            "value": {
+                "id": 31,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../15.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %7, metadata !78, metadata !DIExpression()), !dbg !79",
+                    "line": 32
+                },
+                "var": {
+                    "name": "c",
+                    "uid": 14
+                }
+            }
+        },
+        {
+            "id": 36,
+            "label": "field",
+            "value": {
+                "id": 36,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../15.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %8, metadata !84, metadata !DIExpression()), !dbg !85",
+                    "line": 33
+                },
+                "var": {
+                    "name": "d",
+                    "uid": 15
+                }
+            }
+        },
+        {
+            "id": 41,
+            "label": "field",
+            "value": {
+                "id": 41,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../15.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %9, metadata !89, metadata !DIExpression()), !dbg !90",
+                    "line": 34
+                },
+                "var": {
+                    "name": "e",
+                    "uid": 16
+                }
+            }
+        }
+    ],
+    "values": [
+        {
+            "id": 20,
+            "label": "VT_OBJECT",
+            "obj": 19,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 25,
+            "label": "VT_OBJECT",
+            "obj": 24,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 30,
+            "label": "VT_OBJECT",
+            "obj": 29,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 35,
+            "label": "VT_OBJECT",
+            "obj": 34,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 40,
+            "label": "VT_OBJECT",
+            "obj": 39,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 45,
+            "label": "VT_OBJECT",
+            "obj": 44,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 68,
+            "label": "VT_OBJECT",
+            "obj": 67,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 129,
+            "label": "VT_OBJECT",
+            "obj": 128,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 199,
+            "label": "VT_OBJECT",
+            "obj": 198,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 271,
+            "label": "VT_OBJECT",
+            "obj": 270,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 346,
+            "label": "VT_OBJECT",
+            "obj": 345,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 426,
+            "label": "VT_OBJECT",
+            "obj": 425,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 510,
+            "label": "VT_OBJECT",
+            "obj": 509,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 598,
+            "label": "VT_OBJECT",
+            "obj": 597,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 724,
+            "label": "VT_OBJECT",
+            "obj": 723,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 740,
+            "label": "NULL",
+            "lonely": true
+        },
+        {
+            "id": 741,
+            "label": "NULL",
+            "lonely": true
+        },
+        {
+            "id": 742,
+            "iid": 1,
+            "label": "int",
+            "lonely": true,
+            "value": 1
+        },
+        {
+            "id": 743,
+            "iid": 184,
+            "label": "int",
+            "lonely": true,
+            "value": 2
+        },
+        {
+            "id": 744,
+            "iid": 254,
+            "label": "int",
+            "lonely": true,
+            "value": 3
+        },
+        {
+            "id": 745,
+            "iid": 4,
+            "label": "int",
+            "lonely": true,
+            "value": 4
+        },
+        {
+            "id": 746,
+            "iid": 401,
+            "label": "int",
+            "lonely": true,
+            "value": 5
+        },
+        {
+            "id": 747,
+            "iid": 481,
+            "label": "int",
+            "lonely": true,
+            "value": 6
+        },
+        {
+            "id": 748,
+            "iid": 565,
+            "label": "int",
+            "lonely": true,
+            "value": 7
+        },
+        {
+            "id": 749,
+            "label": "NULL",
+            "lonely": true
+        }
+    ]
+}
