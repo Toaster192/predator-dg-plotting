@@ -1,3 +1,4 @@
+#include <verifier-builtins.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -12,6 +13,7 @@ int main()
 	    *(foo[i]) = i;
     }
 
+    __VERIFIER_plot(NULL);
     printf("%d %d %d", *(foo[0]), *(foo[1]), *(foo[8]));
 
     return 0;

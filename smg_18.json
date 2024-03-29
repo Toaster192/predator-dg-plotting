@@ -1,0 +1,256 @@
+{
+    "compositeObjects": [
+        {
+            "id": 738,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 14,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 14,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 22,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 739,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 19,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 19,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 23,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 740,
+            "label": "DLS 2+, head [+0], next [+8], prev [+16]",
+            "objects": [
+                {
+                    "id": 732,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 24,
+                    "size_low": 24,
+                    "value": 732
+                },
+                {
+                    "id": 733,
+                    "label": "empty",
+                    "placement": ".<anon>",
+                    "size": 4
+                },
+                {
+                    "id": 734,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                },
+                {
+                    "id": 735,
+                    "label": "empty",
+                    "placement": ".<anon>"
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "from": 14,
+            "label": "offset",
+            "off": 0,
+            "to": 22
+        },
+        {
+            "from": 19,
+            "label": "offset",
+            "off": 0,
+            "to": 23
+        },
+        {
+            "from": 732,
+            "label": "offset",
+            "off": 0,
+            "to": 733
+        },
+        {
+            "from": 732,
+            "label": "offset",
+            "off": 8,
+            "to": 734
+        },
+        {
+            "from": 732,
+            "label": "offset",
+            "off": 16,
+            "to": 735
+        },
+        {
+            "from": 15,
+            "label": "offset",
+            "off": 0,
+            "to": 14
+        },
+        {
+            "from": 20,
+            "label": "offset",
+            "off": 0,
+            "to": 19
+        },
+        {
+            "from": 736,
+            "label": "offset",
+            "off": 0,
+            "to": 732
+        },
+        {
+            "from": 737,
+            "label": "offset",
+            "off": 0,
+            "to": 732
+        },
+        {
+            "from": 11,
+            "label": "hasValue",
+            "to": 15
+        },
+        {
+            "from": 22,
+            "label": "hasValue",
+            "to": 736
+        },
+        {
+            "from": 16,
+            "label": "hasValue",
+            "to": 20
+        },
+        {
+            "from": 23,
+            "label": "hasValue",
+            "to": 737
+        },
+        {
+            "from": 733,
+            "label": "hasValue",
+            "to": 741
+        },
+        {
+            "from": 734,
+            "label": "hasValue",
+            "to": 742
+        },
+        {
+            "from": 735,
+            "label": "hasValue",
+            "to": 743
+        }
+    ],
+    "metadata": {
+        "func_name": "main"
+    },
+    "objects": [
+        {
+            "id": 11,
+            "label": "field",
+            "value": {
+                "id": 11,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../18.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %1, metadata !20, metadata !DIExpression()), !dbg !21",
+                    "line": 15
+                },
+                "var": {
+                    "name": "h",
+                    "uid": 10
+                }
+            }
+        },
+        {
+            "id": 16,
+            "label": "field",
+            "value": {
+                "id": 16,
+                "label": "var",
+                "loc": {
+                    "column": 18,
+                    "file": "../18.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %2, metadata !23, metadata !DIExpression()), !dbg !24",
+                    "line": 16
+                },
+                "var": {
+                    "name": "t",
+                    "uid": 11
+                }
+            }
+        }
+    ],
+    "values": [
+        {
+            "id": 15,
+            "label": "VT_OBJECT",
+            "obj": 14,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 20,
+            "label": "VT_OBJECT",
+            "obj": 19,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 736,
+            "label": "VT_OBJECT",
+            "obj": 732,
+            "offset_high": 0,
+            "offset_low": 0,
+            "targetSpecLabel": "TS_FIRST"
+        },
+        {
+            "id": 737,
+            "label": "VT_OBJECT",
+            "obj": 732,
+            "offset_high": 0,
+            "offset_low": 0,
+            "targetSpecLabel": "TS_LAST"
+        },
+        {
+            "id": 741,
+            "iid": 1,
+            "label": "int",
+            "lonely": true,
+            "value": 1
+        },
+        {
+            "id": 742,
+            "label": "NULL",
+            "lonely": true
+        },
+        {
+            "id": 743,
+            "label": "NULL",
+            "lonely": true
+        }
+    ]
+}

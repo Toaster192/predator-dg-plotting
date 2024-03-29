@@ -1,0 +1,385 @@
+{
+    "compositeObjects": [
+        {
+            "id": 223,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 14,
+                    "label": "SC_ON_STACK",
+                    "size_high": 80,
+                    "size_low": 80,
+                    "value": {
+                        "id": 14,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 44,
+                    "label": "empty"
+                },
+                {
+                    "id": 90,
+                    "label": "empty"
+                },
+                {
+                    "id": 139,
+                    "label": "empty"
+                },
+                {
+                    "id": 188,
+                    "label": "empty"
+                },
+                {
+                    "id": 236,
+                    "label": "empty",
+                    "placement": "[0]"
+                }
+            ]
+        },
+        {
+            "id": 224,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 30,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 30
+                },
+                {
+                    "id": 60,
+                    "label": "empty",
+                    "size": 4
+                }
+            ]
+        },
+        {
+            "id": 225,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 75,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 75
+                },
+                {
+                    "id": 106,
+                    "label": "empty",
+                    "size": 4
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 124,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 124
+                },
+                {
+                    "id": 155,
+                    "label": "empty",
+                    "size": 4
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 173,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 173
+                },
+                {
+                    "id": 204,
+                    "label": "empty",
+                    "size": 4
+                }
+            ]
+        },
+        {
+            "id": 228,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 221,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 221
+                },
+                {
+                    "id": 252,
+                    "label": "empty",
+                    "size": 4
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "from": 14,
+            "label": "offset",
+            "off": 0,
+            "to": 44
+        },
+        {
+            "from": 14,
+            "label": "offset",
+            "off": 8,
+            "to": 90
+        },
+        {
+            "from": 14,
+            "label": "offset",
+            "off": 16,
+            "to": 139
+        },
+        {
+            "from": 14,
+            "label": "offset",
+            "off": 24,
+            "to": 188
+        },
+        {
+            "from": 14,
+            "label": "offset",
+            "off": 32,
+            "to": 236
+        },
+        {
+            "from": 30,
+            "label": "offset",
+            "off": 0,
+            "to": 60
+        },
+        {
+            "from": 75,
+            "label": "offset",
+            "off": 0,
+            "to": 106
+        },
+        {
+            "from": 124,
+            "label": "offset",
+            "off": 0,
+            "to": 155
+        },
+        {
+            "from": 173,
+            "label": "offset",
+            "off": 0,
+            "to": 204
+        },
+        {
+            "from": 221,
+            "label": "offset",
+            "off": 0,
+            "to": 252
+        },
+        {
+            "from": 15,
+            "label": "offset",
+            "off": 0,
+            "to": 14
+        },
+        {
+            "from": 31,
+            "label": "offset",
+            "off": 0,
+            "to": 30
+        },
+        {
+            "from": 76,
+            "label": "offset",
+            "off": 0,
+            "to": 75
+        },
+        {
+            "from": 125,
+            "label": "offset",
+            "off": 0,
+            "to": 124
+        },
+        {
+            "from": 174,
+            "label": "offset",
+            "off": 0,
+            "to": 173
+        },
+        {
+            "from": 222,
+            "label": "offset",
+            "off": 0,
+            "to": 221
+        },
+        {
+            "from": 11,
+            "label": "hasValue",
+            "to": 15
+        },
+        {
+            "from": 44,
+            "label": "hasValue",
+            "to": 31
+        },
+        {
+            "from": 90,
+            "label": "hasValue",
+            "to": 76
+        },
+        {
+            "from": 139,
+            "label": "hasValue",
+            "to": 125
+        },
+        {
+            "from": 188,
+            "label": "hasValue",
+            "to": 174
+        },
+        {
+            "from": 236,
+            "label": "hasValue",
+            "to": 222
+        },
+        {
+            "from": 60,
+            "label": "hasValue",
+            "to": 229
+        },
+        {
+            "from": 106,
+            "label": "hasValue",
+            "to": 230
+        },
+        {
+            "from": 155,
+            "label": "hasValue",
+            "to": 231
+        },
+        {
+            "from": 204,
+            "label": "hasValue",
+            "to": 232
+        },
+        {
+            "from": 252,
+            "label": "hasValue",
+            "to": 233
+        }
+    ],
+    "metadata": {
+        "func_name": "main"
+    },
+    "objects": [
+        {
+            "id": 11,
+            "label": "field",
+            "value": {
+                "id": 11,
+                "label": "var",
+                "loc": {
+                    "column": 10,
+                    "file": "../16.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata [10 x i32*]* %1, metadata !14, metadata !DIExpression()), !dbg !18",
+                    "line": 9
+                },
+                "var": {
+                    "name": "foo",
+                    "uid": 9
+                }
+            }
+        }
+    ],
+    "values": [
+        {
+            "id": 15,
+            "label": "VT_OBJECT",
+            "obj": 14,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 31,
+            "label": "VT_OBJECT",
+            "obj": 30,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 76,
+            "label": "VT_OBJECT",
+            "obj": 75,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 125,
+            "label": "VT_OBJECT",
+            "obj": 124,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 174,
+            "label": "VT_OBJECT",
+            "obj": 173,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 222,
+            "label": "VT_OBJECT",
+            "obj": 221,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 229,
+            "label": "NULL",
+            "lonely": true
+        },
+        {
+            "id": 230,
+            "iid": 1,
+            "label": "int",
+            "lonely": true,
+            "value": 1
+        },
+        {
+            "id": 231,
+            "iid": 115,
+            "label": "int",
+            "lonely": true,
+            "value": 2
+        },
+        {
+            "id": 232,
+            "iid": 164,
+            "label": "int",
+            "lonely": true,
+            "value": 3
+        },
+        {
+            "id": 233,
+            "iid": 4,
+            "label": "int",
+            "lonely": true,
+            "value": 4
+        }
+    ]
+}

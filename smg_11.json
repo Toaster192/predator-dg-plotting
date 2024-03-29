@@ -1,0 +1,201 @@
+{
+    "compositeObjects": [
+        {
+            "id": 33,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 6,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 6,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 7,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 8,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 28,
+                    "label": "SC_ON_STACK",
+                    "size_high": 8,
+                    "size_low": 8,
+                    "value": {
+                        "id": 28,
+                        "label": "var_anonymous",
+                        "value": "STACK of main()"
+                    }
+                },
+                {
+                    "id": 29,
+                    "label": "empty"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "label": "region",
+            "objects": [
+                {
+                    "id": 31,
+                    "label": "SC_ON_HEAP",
+                    "size_high": 4,
+                    "size_low": 4,
+                    "value": 31
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "from": 6,
+            "label": "offset",
+            "off": 0,
+            "to": 7
+        },
+        {
+            "from": 28,
+            "label": "offset",
+            "off": 0,
+            "to": 29
+        },
+        {
+            "from": 9,
+            "label": "offset",
+            "off": 0,
+            "to": 8
+        },
+        {
+            "from": 12,
+            "label": "offset",
+            "off": 0,
+            "to": 6
+        },
+        {
+            "from": 30,
+            "label": "offset",
+            "off": 0,
+            "to": 28
+        },
+        {
+            "from": 32,
+            "label": "offset",
+            "off": 0,
+            "to": 31
+        },
+        {
+            "from": 7,
+            "label": "hasValue",
+            "to": 9
+        },
+        {
+            "from": 10,
+            "label": "hasValue",
+            "to": 12
+        },
+        {
+            "from": 26,
+            "label": "hasValue",
+            "to": 30
+        },
+        {
+            "from": 29,
+            "label": "hasValue",
+            "to": 32
+        }
+    ],
+    "metadata": {
+        "func_name": "id"
+    },
+    "objects": [
+        {
+            "id": 10,
+            "label": "field",
+            "value": {
+                "id": 10,
+                "label": "var",
+                "loc": {
+                    "column": 10,
+                    "file": "../11.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata i32** %2, metadata !25, metadata !DIExpression()), !dbg !26",
+                    "line": 12
+                },
+                "var": {
+                    "name": "b",
+                    "uid": 13
+                }
+            }
+        },
+        {
+            "id": 26,
+            "label": "field",
+            "value": {
+                "id": 26,
+                "label": "var",
+                "loc": {
+                    "column": 10,
+                    "file": "../11.c",
+                    "insn": "  call void @llvm.dbg.declare(metadata i32** %1, metadata !21, metadata !DIExpression()), !dbg !22",
+                    "line": 11
+                },
+                "var": {
+                    "name": "a",
+                    "uid": 12
+                }
+            }
+        }
+    ],
+    "values": [
+        {
+            "id": 9,
+            "label": "VT_OBJECT",
+            "obj": 8,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 12,
+            "label": "VT_OBJECT",
+            "obj": 6,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 30,
+            "label": "VT_OBJECT",
+            "obj": 28,
+            "offset_high": 0,
+            "offset_low": 0
+        },
+        {
+            "id": 32,
+            "label": "VT_OBJECT",
+            "obj": 31,
+            "offset_high": 0,
+            "offset_low": 0
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 #include <verifier-builtins.h>
 #include <stddef.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 struct Node {
@@ -12,13 +13,11 @@ struct Node {
 
 int main()
 {
-    __VERIFIER_plot(NULL);
     struct Node *h = NEW(struct Node);
-    __VERIFIER_plot(NULL);
     struct Node *t = NEW(struct Node);
-    __VERIFIER_plot(NULL);
     h->n = t;
     __VERIFIER_plot(NULL);
+    printf("%p %p", h, t);
 
     return 0;
 }

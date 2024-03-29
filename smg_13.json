@@ -213,6 +213,9 @@
             "to": 20
         }
     ],
+    "metadata": {
+        "func_name": "main"
+    },
     "objects": [
         {
             "id": 11,

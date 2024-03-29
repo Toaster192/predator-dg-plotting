@@ -79,7 +79,7 @@
                     }
                 },
                 {
-                    "id": 709,
+                    "id": 703,
                     "label": "empty"
                 }
             ]
@@ -395,7 +395,7 @@
             "from": 34,
             "label": "offset",
             "off": 0,
-            "to": 709
+            "to": 703
         },
         {
             "from": 39,
@@ -679,9 +679,9 @@
             "to": 35
         },
         {
-            "from": 709,
+            "from": 703,
             "label": "hasValue",
-            "to": 199
+            "to": 510
         },
         {
             "from": 36,
@@ -691,7 +691,7 @@
         {
             "from": 719,
             "label": "hasValue",
-            "to": 510
+            "to": 68
         },
         {
             "from": 41,
@@ -824,6 +824,9 @@
             "to": 510
         }
     ],
+    "metadata": {
+        "func_name": "main"
+    },
     "objects": [
         {
             "id": 16,
@@ -906,7 +909,7 @@
                 "loc": {
                     "column": 18,
                     "file": "../15.c",
-                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %8, metadata !84, metadata !DIExpression()), !dbg !85",
+                    "insn": "  call void @llvm.dbg.declare(metadata %struct.Node** %8, metadata !83, metadata !DIExpression()), !dbg !84",
                     "line": 33
                 },
                 "var": {

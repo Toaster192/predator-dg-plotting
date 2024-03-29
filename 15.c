@@ -27,16 +27,15 @@ int main()
         t = p;
     }
 
-    struct Node* a = h;
-    struct Node* b = h->n;
-    struct Node* c = h->n->n;
-    struct Node* d = t->b;
+    struct Node *a = h;
+    struct Node *b = h->n;
+    struct Node *c = t->b;
+    struct Node *d = h->n->b;
     struct Node *e = NEW(struct Node);
 
     __VERIFIER_plot(NULL);
     printf("%p %p %p %p %p", a, b, c, d, e);
 
-    free(d);
     free(t);
     free(c);
     free(b);
