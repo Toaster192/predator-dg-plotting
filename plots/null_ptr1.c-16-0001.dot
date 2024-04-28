@@ -1,0 +1,101 @@
+digraph "null_ptr1.c-16-0001" {
+	label=<<FONT POINT-SIZE="18">null_ptr1.c-16-0001</FONT>>;
+	clusterrank=local;
+	labelloc=t;
+	"5" [shape=box, color=blue, fontcolor=blue, label="CL#6 [obj = #5] field#7"];
+subgraph "cluster1" {
+	rank=same;
+	label="";
+	color=blue;
+	fontcolor=blue;
+	bgcolor=white;
+	penwidth=1.0;
+	style=dashed;
+	"8" [shape=box, color=blue, fontcolor=blue, label="STACK of main() [obj = #8] [SC_ON_STACK, size = 4 B]"];
+	"26" [shape=box, color=gray, fontcolor=gray, style=dotted, label=" #26 [size = 4B]"];
+	"8" -> "26" [color=black, fontcolor=black, label="[+0]"];
+}
+	"11" [shape=box, color=blue, fontcolor=blue, label="CL#8:a [obj = #11] field#13"];
+subgraph "cluster2" {
+	rank=same;
+	label="";
+	color=blue;
+	fontcolor=blue;
+	bgcolor=white;
+	penwidth=1.0;
+	style=dashed;
+	"14" [shape=box, color=blue, fontcolor=blue, label="STACK of main() [obj = #14] [SC_ON_STACK, size = 8 B]"];
+	"35" [shape=box, color=black, fontcolor=black, label=" #35"];
+	"14" -> "35" [color=black, fontcolor=black, label="[+0]"];
+}
+	"16" [shape=box, color=blue, fontcolor=blue, label="CL#9:b [obj = #16] field#18"];
+subgraph "cluster3" {
+	rank=same;
+	label="";
+	color=blue;
+	fontcolor=blue;
+	bgcolor=white;
+	penwidth=1.0;
+	style=dashed;
+	"19" [shape=box, color=blue, fontcolor=blue, label="STACK of main() [obj = #19] [SC_ON_STACK, size = 8 B]"];
+	"36" [shape=box, color=black, fontcolor=black, label=" #36"];
+	"19" -> "36" [color=black, fontcolor=black, label="[+0]"];
+}
+	"21" [shape=box, color=blue, fontcolor=blue, label="CL#11:fp [obj = #21] field#23"];
+subgraph "cluster4" {
+	rank=same;
+	label="";
+	color=blue;
+	fontcolor=blue;
+	bgcolor=white;
+	penwidth=1.0;
+	style=dashed;
+	"24" [shape=box, color=blue, fontcolor=blue, label="STACK of main() [obj = #24] [SC_ON_STACK, size = 8 B]"];
+	"37" [shape=box, color=black, fontcolor=black, label=" #37"];
+	"24" -> "37" [color=black, fontcolor=black, label="[+0]"];
+}
+	"27" [shape=box, color=blue, fontcolor=blue, label="CL#14 [obj = #27] field#29"];
+subgraph "cluster5" {
+	rank=same;
+	label="";
+	color=black;
+	fontcolor=black;
+	bgcolor=white;
+	penwidth=1.0;
+	style=dashed;
+	"30" [shape=box, color=black, fontcolor=black, label="#30 [SC_ON_HEAP, size = 4 B]"];
+}
+	"32" [shape=box, color=blue, fontcolor=blue, label="CL#17 [obj = #32] field#34"];
+	"38" [shape=box, color=blue, fontcolor=blue, label="CL#18 [obj = #38] field#40"];
+	"41" [shape=box, color=blue, fontcolor=blue, label="CL#19 [obj = #41] field#43"];
+	"44" [shape=box, color=blue, fontcolor=blue, label="CL#20 [obj = #44] field#46"];
+	"47" [shape=box, color=blue, fontcolor=blue, label="CL#21 [obj = #47] field#49"];
+	"9" [shape=ellipse, penwidth=2, fontcolor=blue, label="#9 VT_OBJECT [off = 0, obj = #8]"];
+	"9" -> "8" [color=black, fontcolor=black, label="[+0]"];
+	"15" [shape=ellipse, penwidth=2, fontcolor=blue, label="#15 VT_OBJECT [off = 0, obj = #14]"];
+	"15" -> "14" [color=black, fontcolor=black, label="[+0]"];
+	"20" [shape=ellipse, penwidth=4, fontcolor=blue, label="#20 VT_OBJECT [off = 0, obj = #19]"];
+	"20" -> "19" [color=black, fontcolor=black, label="[+0]"];
+	"25" [shape=ellipse, penwidth=2, fontcolor=blue, label="#25 VT_OBJECT [off = 0, obj = #24]"];
+	"25" -> "24" [color=black, fontcolor=black, label="[+0]"];
+	"31" [shape=ellipse, penwidth=5, fontcolor=black, label="#31 [off = 0, obj = #30]"];
+	"31" -> "30" [color=black, fontcolor=black, label="[+0]"];
+	"5" -> "9" [color=blue, fontcolor=blue];
+	"lonely6" [shape=plaintext, fontcolor=blue, label="[int] 0"];
+	"26" -> "lonely6" [color=blue, fontcolor=blue];
+	"11" -> "15" [color=blue, fontcolor=blue];
+	"35" -> "31" [color=blue, fontcolor=blue];
+	"16" -> "20" [color=blue, fontcolor=blue];
+	"lonely7" [shape=plaintext, fontcolor=blue, label="NULL"];
+	"36" -> "lonely7" [color=blue, fontcolor=blue];
+	"21" -> "25" [color=blue, fontcolor=blue];
+	"37" -> "20" [color=blue, fontcolor=blue];
+	"27" -> "31" [color=blue, fontcolor=blue];
+	"32" -> "31" [color=blue, fontcolor=blue];
+	"38" -> "31" [color=blue, fontcolor=blue];
+	"lonely8" [shape=plaintext, fontcolor=blue, label="NULL"];
+	"41" -> "lonely8" [color=blue, fontcolor=blue];
+	"44" -> "20" [color=blue, fontcolor=blue];
+	"lonely9" [shape=plaintext, fontcolor=blue, label="NULL"];
+	"47" -> "lonely9" [color=blue, fontcolor=blue];
+}
