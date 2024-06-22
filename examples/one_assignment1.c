@@ -6,15 +6,8 @@
 int main()
 {
     int *a = NEW(int);
-    int *b = NEW(int);
-    int **fp;
-    int **hm;
-    hm = &b;
-    fp = &a;
-
-    printf("%p %p %p %p", a, b, *fp, *hm);
-
-    fp = &b;
+    int **p;
+    p = &a;
 
     return 0;
 }
