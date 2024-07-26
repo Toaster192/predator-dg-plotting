@@ -1,4 +1,3 @@
-#include <verifier-builtins.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -16,7 +15,6 @@ int main()
     a = id(a);
     b = id(b);
 
-    __VERIFIER_plot(NULL);
     printf("%p %p %p %p", a, b, c, d);
 
     return 0;

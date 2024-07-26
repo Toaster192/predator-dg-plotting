@@ -1,4 +1,3 @@
-#include <verifier-builtins.h>
 #include <stddef.h>
 #include <stdlib.h>
 
@@ -15,10 +14,8 @@ int main()
     struct Node* h = NULL;
     struct Node* t = NULL;
 
-    __VERIFIER_plot(NULL);
     for (int i = 0; i < 5; i++) {
         struct Node *p = NEW(struct Node);
-        __VERIFIER_plot(NULL);
         p->n = NULL;
         p->d = i;
         p->b = t;
@@ -28,7 +25,6 @@ int main()
             t->n = p;
         t = p;
     }
-    __VERIFIER_plot(NULL);
 
     return 0;
 }

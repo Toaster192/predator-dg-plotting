@@ -9,13 +9,13 @@ int main(void)
 {
     int *a = NEW(int);
     int *b = NEW(int);
+    int *c = NEW(int);
 
     a = id(a);
     b = id(b);
+    c = id(c);
 
     assert(a != b);
-
-    a = b;
     
     return 0;
 }

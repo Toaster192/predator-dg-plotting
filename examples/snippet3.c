@@ -3,14 +3,13 @@
 
 #define NEW(type) (type *) malloc(sizeof(type))
 
-int *global;
-
 int main()
 {
-    int *local = NEW(int);
-    global = local;
+    int *a, *b, **p;
+    a = NEW(int);
+    b = NEW(int);
+    p = &a;
 
-    printf("%p %p", local, global);
-
+    printf("%p %p %p", a, b, *p);
     return 0;
 }

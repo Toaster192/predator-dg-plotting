@@ -1,4 +1,3 @@
-#include <verifier-builtins.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -9,7 +8,6 @@ int* id (int* x) { return x; }
 int* foo() {
 	int* a = NEW(int);
 	a = id(a);
-        __VERIFIER_plot(NULL);
 	return a;
 }
 int* bar() {
@@ -21,7 +19,6 @@ int main()
 {
     int* x = foo();
     int* y = bar();
-    __VERIFIER_plot(NULL);
     printf("%p %p", x, y);
 
     return 0;

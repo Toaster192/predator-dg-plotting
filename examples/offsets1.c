@@ -6,14 +6,26 @@ int main()
 {
     int *p = malloc(40*sizeof(int));
 
+    int (*array)[40];
     int **t;
-    int ***h;
+    int a = 6;
+    int b;
+    scanf("%d", &b);
     t = &p;
-    h = &t;
+    array = p;
 
     p[2];
-    (*t)[2];
-    (*(*h))[2];
+    p[4500];
+    t[0][2];
+    (*array)[20];
+    array[0][10];
+    array[1][-10];
+    (*array)[40];
+    array[2][-10];
+    (*array)[100];
+
+    p[a];
+    p[b];
 
     return 0;
 }

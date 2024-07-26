@@ -1,5 +1,6 @@
 #include <stddef.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 struct Node {
     int d;
@@ -25,6 +26,14 @@ int main()
             t->n = p;
         t = p;
     }
+    
+    struct Node* a = h->n->n->n;
+    struct Node* b = t->b->n->n;
+    struct Node* c = t->b->n;
+    struct Node* d = h->n->b;
+    struct Node* e = h->n->n;
+
+    printf("%d %d %d %d %d", a->d, b->d, c->d, d->d, e->d);
 
     return 0;
 }
